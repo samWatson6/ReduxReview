@@ -8,7 +8,7 @@
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --host=127.0.0.1",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
-    "lint": "eslint src" 
+    "lint": "eslint src"
   },
   "author": "",
   "license": "ISC",
@@ -31,6 +31,7 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
-    "redux": "4.0.0"
+    "redux": "4.0.0",
+    "youtube-api-search": "0.0.5"
   }
 }
